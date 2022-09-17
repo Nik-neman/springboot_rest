@@ -1,10 +1,10 @@
-package com.nikolaikozlovskii.spring.springboot.springboot_rest.dao;
+package com.nikolaikozlovskii.spring.springboot.springboot_rest.service;
 
 import com.nikolaikozlovskii.spring.springboot.springboot_rest.entity.Employee;
 
 import java.util.List;
 
-public interface EmployeeDAO {
+public interface EmployeeService {
     public List<Employee> getAllEmployees();
 
     public void saveEmployee(Employee employee);
